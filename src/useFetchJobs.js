@@ -1,9 +1,9 @@
 import { useReducer } from "react"
 
 const ACTIONS = {
-    MAKE_REQUEST: "MAKE_REQUEST",
-    GET_DATA: "GET_DATA",
-    ERROR: "ERROR"
+    MAKE_REQUEST: "make-request",
+    GET_DATA: "get-data",
+    ERROR: "error"
 }
 
 function reducer (state, action) {
